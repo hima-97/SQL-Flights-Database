@@ -1,8 +1,8 @@
 -- Creating tables and importing data:
 
--- After cloning the CS 174A repo from github, open command prompt in current directory and use the commands to extract and import the data onto the corresponding tables:
+-- Open command prompt in current directory and use the commands to extract and import the data onto the corresponding tables:
  
-	tar zxvf flights-small.tar.gz -- Extract content of flights-small.tar.gz in current directory
+	--tar zxvf flights-small.tar.gz -- This extracts content of flights-small.tar.gz in current directory
 
         create table flights(fid int, 
                              month_id int,        -- 1-12
